@@ -1,0 +1,41 @@
+.home-header {
+	background-color: #fff;
+	display: flex;
+	padding: 0 5%;
+	height: 60px;
+	align-items: center;
+	justify-content: center;
+
+	nav ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		display: flex;
+
+		a {
+			display: block;
+			line-height: 60px;
+			text-decoration: none;
+			padding: 0 1rem;
+		}
+	}
+}
+
+.home-content {
+	background-color: #fff;
+	display: flex;
+	width: 100%;
+	min-height: calc(100vh - 120px);
+	padding: 0 5%;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.home-footer {
+	display: flex;
+	height: 60px;
+	align-items: center;
+	padding: 0 5%;
+	justify-content: center;
+}
